@@ -23,11 +23,11 @@ while (1):
 
 	#输入用户名
 	input_name = browser.find_element_by_id("user")
-	input_name.send_keys("alexzl")
+	input_name.send_keys("")
 
 	#输入密码
 	input_pass = browser.find_element_by_id("pass")
-	input_pass.send_keys("hit92192")
+	input_pass.send_keys("")
 
 
 	# #获取验证码图片 因为下载了之后验证码会换一张，所以只能截图
